@@ -1,0 +1,453 @@
+Appetizers
+    Collective
+        Collective
+            Sparkling
+    Platters
+        Antipasto
+            Rosé  
+        Cheese
+            Rosé
+    Amuse-Buche
+        Proscuitto & Melon
+            Rosé
+
+Breads and Starches
+    Pizza
+        Collective
+            Malbec
+            Rosé
+            Zinfandel
+    Pasta
+        Collective
+            Chardonnay
+        Baked & Rich
+            Zinfandel
+        Seafood
+            Pinot Gris
+        Tomato Sauces
+            Sangiovese
+    Rice
+        Risotto
+            Chardonnay
+Cheese
+    Collective
+        Collective
+            Marsanne
+            Roussanne
+            Sangiovese
+            Viognier
+        Aged
+            Cabernet Sauvignon
+            Gewurztraminer
+            Syrah / Shiraz
+        Full Flavoured
+            Merlot
+        Goat
+            Pinot Gris
+        Hard
+            Syrah / Shiraz
+        Rich & Strong
+            Zinfandel
+        Sheep
+            Pinot Gris
+        Smoked
+            Pinot Gris
+        Soft
+            Reisling
+            Gewurztraminer
+        Strong
+            Gewurztraminer
+    Blue
+        Collective
+            Riesling
+            Merlot<
+    Soft Rind
+        Brie
+            Riesling
+
+
+Dessert
+    Custards
+        Creme Brulee
+            Icewine or Late Harvest
+    White Chocolate
+        Collective
+            Icewine or Late Harvest
+    Fruit-Based
+        Collective
+            Icewine or Late Harvest
+
+
+Ethnic
+    Asian
+        Collective
+            Gewurztraminer
+            Riesling
+    Chinese
+        Collective
+            Chenin Blanc
+    Mexican
+        Collective
+            Zinfandel
+    Thai
+        Collective
+            Gewurztraminer
+            Riesling
+
+
+Flavours
+    Curry (Indian)
+        Collective
+            Gewurztraminer
+            Riesling
+            Viognier
+    Garlic
+        Collective
+            Sauvignon Blanc
+    Ginger
+        Collective
+            Gewurztraminer
+    Herbs
+        Cilantro
+            Sauvignon Blanc
+        Collective
+            Sauvignon Blanc
+    Pepper
+        Collective
+            Cabernet Sauvignon
+            Syrah / Shiraz
+    Salty
+        Collective
+            Sparkling
+    Smoked
+        Collective
+            Gewurztraminer
+            Pinotage
+    Spice (Mild)
+        Carribean
+            Chardonnay
+        Collective
+            Gewurztraminer
+            Riesling
+        Tropical
+            Chardonnay
+    Spice (Moderate)
+        Collective
+            Gewurztraminer
+            Riesling
+        Rubs
+            Cabernet Sauvignon
+
+
+Fruit
+    Collective
+        Collective
+            Riesling
+    Apples
+        Collective
+            Riesling
+
+
+Grains/Nuts
+    Nuts
+        Collective
+            Chardonnay
+            Viognier
+    Legumes
+        Collective
+            Chardonnay
+    Popcorn
+        Collective
+            Sparkling
+
+
+Meat
+    Collective
+        BBQ
+            Malbec
+            Syrah / Shiraz
+            Zinfandel
+        Braised
+            Cabernet Sauvignon
+            Malbec
+        Grilled
+            Cabernet Sauvignon
+            Cabernet Franc
+            Malbec
+            Meritage/Bordeaux Blend
+            Merlot
+            Syrah / Shiraz
+            Zinfandel
+        Hamburger
+            Zinfandel
+        Roasted
+            Cabernet Sauvignon
+            Cabernet Franc
+            Meritage/Bordeaux Blend
+            Tempranillo
+        Sausage
+            Gewurztraminer
+            Sangiovese
+            Syrah / Shiraz
+            Zinfandel
+        Spicy
+            Zinfandel
+        Smoked
+            Cabernet Sauvignon
+        Steak
+            Cabernet Sauvignon
+            Malbec
+            Merlot
+            Sangiovese
+            Syrah / Shiraz
+            Zinfandel
+    Beef
+        Collective
+            Cabernet Sauvignon
+            Malbec
+            Meritage/Bordeaux Blend
+            Merlot
+            Pinot Noir
+            Sangiovese
+            Tempranillo
+            Zinfandel
+        Grilled
+            Cabernet Sauvignon
+        Pot Roast
+            Cabernet Sauvignon
+        Ribs (BBQ)
+            Pinotage
+        Roasted
+            Cabernet Franc
+        Stew
+            Cabernet Sauvignon
+        Well Marbled
+            Cabernet Sauvignon
+    Charcuterie
+        Collective
+            Gamay Noir
+    Game
+        Collective
+            Cabernet Franc
+            Cabernet Sauvignon
+            Pinotage
+            Tempranillo
+        Venison
+            Syrah / Shiraz
+    Lamb
+        Collective
+            Cabernet Franc
+            Malbec
+            Meritage/Bordeaux Blend
+            Merlot
+            Pinot Noir
+            Syrah / Shiraz
+            Tempranillo
+            Zinfandel
+    Pork
+        Collective
+            Chardonnay
+            Gamay Noir
+            Gewurztraminer
+            Marsanne
+            Pinot Gris
+            Pinot Noir
+            Roussanne
+            Sauvignon Blanc
+            Viognier
+            Zinfandel
+        Bacon
+            Gamay Noir
+        Fruit Sauced
+            Riesling
+        Grilled
+            Merlot
+        Ham
+            Gewurztraminer
+            Riesling
+        Ribs (BBQ)
+            Pinotage
+        Roasted
+            Merlot
+        Sausage
+            Gamay Noir
+        Veal
+            Collective
+                Chardonnay
+                Merlot
+                Pinot Noir
+                Sangiovese
+                Viognier
+        
+Poultry
+    Collective
+        Collective
+            Marsanne
+            Roussanne
+            Tempranillo
+        BBQ
+            Syrah / Shiraz
+            Zinfandel
+    Eggs
+        Collective
+            Sparkling
+    Chicken
+        Collective
+            Merlot
+            Pinot Blanc
+            Pinot Gris
+            Riesling
+            Sangiovese
+            Sauvignon Blanc
+            Viognier
+        Braised
+            Pinot Noir
+        Grilled
+            Chardonnay
+            Gamay Noir
+        Roasted
+            Chardonnay
+            Gamay Noir
+            Pinot Noir
+            Rosé
+    Duck
+        Collective
+            Cabernet Sauvignon
+            Pinot Noir
+            Riesling
+            Syrah / Shiraz
+            Tempranillo
+            Zinfandel
+        Fois Gras
+            Icewine or Late Harvest
+        Grilled
+            Merlot
+        Roasted
+            Merlot
+    Goose
+        Fois Gras
+            Icewine or Late Harvest
+    Turkey
+        Collective
+            Chardonnay
+            Gewurztraminer
+            Merlot
+            Pinot Blanc
+            Zinfandel
+        Roast
+            Rosé
+
+Sauces
+    BBQ
+        Sweet
+            Zinfandel
+    Butter
+        Collective
+            Chardonnay
+                Viognier
+    Cream
+        Collective
+            Chardonnay
+            Viognier
+    Tomato
+        Collective
+            Sangiovese
+        Seafood
+            Reisling
+            Sauvignon Blanc
+
+Seafood
+    Collective
+        Collective
+            White Meritage
+        Sushi
+            Sparkling
+    Fin Fish
+        Collective
+            Pinot Blanc
+            Pinot Gris
+            Sauvignon Blanc
+            Viognier
+            White Meritage
+        Caviar
+            Sparkling
+        Halibut
+            Chardonnay
+        Mahi Mahi
+            Chardonnay
+        Sablefish
+            Chardonnay
+        Salmon
+            Chardonnay
+            Pinot Blanc
+            Pinot Gris
+        Salmon (Grilled)
+            Pinot Noir
+        Salmon (Smoked)
+            Sparkling
+        Smoked
+            Viognier
+        Sturgeon
+            Chardonnay
+        Tilapia
+            Chardonnay
+        Trout
+            Riesling
+        Tuna
+            Pinot Noir
+            Syrah / Shiraz
+    Shellfish
+        Collective
+            Pinot Gris
+            Riesling
+            White Meritage
+        Crab
+            Chardonnay
+        Langostino
+            Chardonnay
+        Lobster
+            Chardonnay
+            Marsanne
+            Roussanne
+            Viognier
+            White Meritage
+        Mussels
+            Pinot Gris
+        Oysters
+            Sauvignon Blanc
+            Sparkling
+        Prawns
+            Chardonnay
+        Scallops
+            Chardonnay
+            Pinot Blanc
+            Pinot Gris
+    Light
+        Collective
+            Reisling
+            Sauvignon Blanc
+    
+Vegetables
+    Corn
+        Collective
+            Chardonnay
+    Mushrooms
+        Collective
+            Cabernet Sauvignon  
+            Pinot Noir
+            Syrah / Shiraz
+        Grilled
+            Merlot
+    Salad
+        Collective
+            Pinot Gris
+            Riesling
+            Sauvignon Blanc
+        Niçoise
+            Rosé
+    Squash
+        Collective
+            Chardonnay
+    Asparagus
+        Collective
+            Sauvignon Blanc

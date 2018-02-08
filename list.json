@@ -1,0 +1,152 @@
+{
+    "cats": [       
+        {
+            "cat_label": "Appetizers",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sparkling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Platters",
+                    "preps": [
+                        {
+                            "prep_label": "Antipasto",
+                            "varietals": "Rosé"
+                        },
+                        {
+                            "prep_label": "Cheese",
+                            "varietals": "Rosé"
+                        }                    
+                    ]
+                },
+                {
+                    "sub_label": "Amuse-Buche",
+                    "preps": [
+                        {
+                            "prep_label": "Proscuitto & Melon",
+                            "varietals": "Rosé"
+                        }                   
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Breads and Starches",
+            "subs": [
+                {
+                    "sub_label": "Pizza",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Malbec, Rosé, Zinfandel"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Pasta",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Baked & Rich",
+                            "varietals": "Zinfandel"
+                        },
+                        {
+                            "prep_label": "Seafood",
+                            "varietals": "Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Tomato Sauces",
+                            "varietals": "Sangiovese"
+                        }                   
+                    ]
+                },
+                {
+                    "sub_label": "Rice",
+                    "preps": [
+                        {
+                            "prep_label": "Risotto",
+                            "varietals": "Chardonnay"
+                        }                   
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Cheese",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Marsanne, Roussanne, Sangiovese, Viognier"
+                        },
+                        {
+                            "prep_label": "Aged",
+                            "varietals": "Cabernet Sauvignon, Gewurztraminer, Syrah / Shiraz"
+                        },
+                        {
+                            "prep_label": "Full Flavoured",
+                            "varietals": "Merlot"
+                        },
+                        {
+                            "prep_label": "Goat",
+                            "varietals": "Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Hard",
+                            "varietals": "Syrah / Shiraz"
+                        },
+                        {
+                            "prep_label": "Rich & Strong",
+                            "varietals": "Zinfandel"
+                        },
+                        {
+                            "prep_label": "Sheep",
+                            "varietals": "Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Smoked",
+                            "varietals": "Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Soft",
+                            "varietals": "Gewurztraminer, Reisling"
+                        },
+                        {
+                            "prep_label": "Strong",
+                            "varietals": "Gewurztraminer"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Blue",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Riesling, Merlot"
+                        }                
+                    ]
+                },
+                {
+                    "sub_label": "Soft Rind",
+                    "preps": [
+                        {
+                            "prep_label": "Brie",
+                            "varietals": "Riesling"
+                        }                   
+                    ]
+                }
+            ]
+        }
+    ]
+}
