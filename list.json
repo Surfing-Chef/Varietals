@@ -147,6 +147,717 @@
                     ]
                 }
             ]
+        },
+        {
+            "cat_label": "Dessert",
+            "subs": [
+                {
+                    "sub_label": "Custards",
+                    "preps": [
+                        {
+                            "prep_label": "Creme Brulee",
+                            "varietals": "Icewine or Late Harvest"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "White Chocolate",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Icewine or Late Harvest"
+                        }                
+                    ]
+                },
+                {
+                    "sub_label": "Fruit-Based",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Icewine or Late Harvest"
+                        }                   
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Ethnic",
+            "subs": [
+                {
+                    "sub_label": "Asian",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Riesling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Chinese",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chenin Blanc"
+                        }                
+                    ]
+                },
+                {
+                    "sub_label": "Mexican",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Zinfandel"
+                        }                   
+                    ]
+                },
+                {
+                    "sub_label": "Thai",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Riesling"
+                        }                   
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Flavours",
+            "subs": [
+                {
+                    "sub_label": "Curry (Indian)",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Riesling, Viognier"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Garlic",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sauvignon Blanc"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Ginger",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Herbs",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sauvignon Blanc"
+                        },
+                        {
+                            "prep_label": "Cilantro",
+                            "varietals": "Sauvignon Blanc"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Pepper",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Sauvignon, Syrah / Shiraz"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Salty",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sparkling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Smoked",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Pinotage"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Spice (Mild)",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Riesling"
+                        },
+                        {
+                            "prep_label": "Carribean",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Tropical",
+                            "varietals": "Chardonnay"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Spice (Moderate)",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer, Riesling"
+                        },
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Sauvignon"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Curry",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gewurztraminer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Fruit",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Riesling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Apples",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Riesling"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Grains/Nuts",
+            "subs": [
+                {
+                    "sub_label": "Nuts",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Viognier"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Legumes",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Popcorn",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sparkling"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Meat",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "BBQ",
+                            "varietals": "Malbec, Syrah / Shiraz, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Braised",
+                            "varietals": "Cabernet Sauvignon, Malbec"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Cabernet Sauvignon, Cabernet Franc, Malbec, Meritage/Bordeaux Blend, Merlot, Syrah / Shiraz, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Hamburger",
+                            "varietals": "Zinfandel"
+                        },
+                        {
+                            "prep_label": "Roasted",
+                            "varietals": "Cabernet Sauvignon, Cabernet Franc, Meritage/Bordeaux Blend, Tempranillo"
+                        },
+                        {
+                            "prep_label": "Sausage",
+                            "varietals": "Gewurztraminer, Sangiovese, Syrah / Shiraz, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Spicy",
+                            "varietals": "Zinfandel"
+                        },
+                        {
+                            "prep_label": "Smoked",
+                            "varietals": "Cabernet Sauvignon"
+                        },
+                        {
+                            "prep_label": "Steak",
+                            "varietals": "Cabernet Sauvignon, Malbec, Merlot, Sangiovese,  Syrah / Shiraz, Zinfandel"
+                        }
+
+                    ]
+                },
+                {
+                    "sub_label": "Beef",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Sauvignon, Malbec, Meritage/Bordeaux Blend, Merlot, Pinot Noir, Sangiovese, Tempranillo, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Cabernet Sauvignon"
+                        },
+                        {
+                            "prep_label": "Pot Roast",
+                            "varietals": "Cabernet Sauvignon"
+                        },
+                        {
+                            "prep_label": "Ribs (BBQ)",
+                            "varietals": "Pinotage"
+                        },
+                        {
+                            "prep_label": "Roasted",
+                            "varietals": "Cabernet Franc"
+                        },
+                        {
+                            "prep_label": "Stew",
+                            "varietals": "Cabernet Sauvignon"
+                        },
+                        {
+                            "prep_label": "Well Marbled",
+                            "varietals": "Cabernet Sauvignon"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Charcuterie",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Gamay Noir"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Game",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Franc, Cabernet Sauvignon, Pinotage, Tempranillo"
+                        },
+                        {
+                            "prep_label": "Venison",
+                            "varietals": "Syrah / Shiraz"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Lamb",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Franc, Malbec, Meritage/Bordeaux Blend, Merlot, Pinot Noir, Syrah / Shiraz, Tempranillo, Zinfandel"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Pork",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Gamay Noir, Gewurztraminer, Marsanne, Pinot Gris, Pinot Noir, Roussanne, Sauvignon Blanc,  Viognier, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Bacon",
+                            "varietals": "Gamay Noir"
+                        },
+                        {
+                            "prep_label": "Fruit Sauced",
+                            "varietals": "Riesling"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Merlot"
+                        },
+                        {
+                            "prep_label": "Ham",
+                            "varietals": "Gewurztraminer, Riesling"
+                        },
+                        {
+                            "prep_label": "Ribs (BBQ)",
+                            "varietals": "Pinotage"
+                        },
+                        {
+                            "prep_label": "Roasted",
+                            "varietals": "Merlot"
+                        },
+                        {
+                            "prep_label": "Sausage",
+                            "varietals": "Gamay Noir"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Veal",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Merlot, Pinot Noir, Sangiovese, Viognier"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Poultry",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Merlot, Pinot Blanc, Pinot Gris, Riesling, Sangiovese,Sauvignon Blanc, Viognier"
+                        },
+                        {
+                            "prep_label": "BBQ",
+                            "varietals": "Syrah / Shiraz, Zinfandel"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Eggs",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sparkling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Chicken",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Merlot , Pinot Blanc, Pinot Gris, Riesling, Sangiovese, Sauvignon Blanc, Viognier"
+                        },
+                        {
+                            "prep_label": "Braised",
+                            "varietals": "Pinot Noir"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Chardonnay, Gamay Noir"
+                        },
+                        {
+                            "prep_label": "Roasted",
+                            "varietals": "Chardonnay, Gamay Noir, Pinot Noir, Rosé"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Duck",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Sauvignon, Pinot Noir, Riesling, Syrah / Shiraz, Tempranillo, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Fois Gras",
+                            "varietals": "Icewine or Late Harvest"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Merlot"
+                        },
+                        {
+                            "prep_label": "Roasted",
+                            "varietals": "Merlot"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Goose",
+                    "preps": [
+                        {
+                            "prep_label": "Fois Gras",
+                            "varietals": "Icewine or Late Harvest"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Turkey",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Gewurztraminer, Merlot, Pinot Blanc, Zinfandel"
+                        },
+                        {
+                            "prep_label": "Roast",
+                            "varietals": "Rosé"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Sauces",
+            "subs": [
+                {
+                    "sub_label": "BBQ",
+                    "preps": [
+                        {
+                            "prep_label": "Sweet",
+                            "varietals": "Zinfandel"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Butter",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Viognier"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Cream",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay, Viognier"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Tomato",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sangiovese"
+                        },
+                        {
+                            "prep_label": "Seafood",
+                            "varietals": "Reisling, Sauvignon Blanc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Seafood",
+            "subs": [
+                {
+                    "sub_label": "Collective",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "White Meritage"
+                        },
+                        {
+                            "prep_label": "Smoked",
+                            "varietals": "Viognier"
+                        },
+                        {
+                            "prep_label": "Sushi",
+                            "varietals": "Sparkling"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Finfish",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Pinot Blanc, Pinot Gris, Sauvignon Blanc, Viognier, White Meritage"
+                        },
+                        {
+                            "prep_label": "Caviar",
+                            "varietals": "Sparkling"
+                        },
+                        {
+                            "prep_label": "Halibut",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Mahi Mahi",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Sablefish",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Salmon",
+                            "varietals": "Chardonnay, Pinot Blanc, Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Salmon (Grilled)",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Salmon (Smoked)",
+                            "varietals": "Sparkling"
+                        },
+                        {
+                            "prep_label": "Sturgeon",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Tilapia",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Trout",
+                            "varietals": "Riesling"
+                        },
+                        {
+                            "prep_label": "Tuna",
+                            "varietals": "Pinot Noir, Syrah / Shiraz"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Shellfish",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Pinot Gris, Riesling, White Meritage"
+                        },
+                        {
+                            "prep_label": "Crab",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Langostino",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Lobster",
+                            "varietals": "Chardonnay, Marsanne, Roussanne, Viognier, White Meritage"
+                        },
+                        {
+                            "prep_label": "Mussels",
+                            "varietals": "Pinot Gris"
+                        },
+                        {
+                            "prep_label": "Oysters",
+                            "varietals": "Sauvignon Blanc, Sparkling"
+                        },
+                        {
+                            "prep_label": "Prawns",
+                            "varietals": "Chardonnay"
+                        },
+                        {
+                            "prep_label": "Scallops",
+                            "varietals": "Chardonnay, Pinot Blanc, Pinot Gris"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Light Fish",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Reisling, Sauvignon Blanc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cat_label": "Vegetables",
+            "subs": [
+                {
+                    "sub_label": "Asparagus",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Sauvignon Blanc"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Corn",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Mushrooms",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Cabernet Sauvignon, Pinot Noir, Syrah / Shiraz"
+                        },
+                        {
+                            "prep_label": "Grilled",
+                            "varietals": "Merlot"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Salad",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Pinot Gris, Riesling, Sauvignon Blanc"
+                        },
+                        {
+                            "prep_label": "Niçoise",
+                            "varietals": "Rosé"
+                        }
+                    ]
+                },
+                {
+                    "sub_label": "Squash",
+                    "preps": [
+                        {
+                            "prep_label": "Collective",
+                            "varietals": "Chardonnay"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
