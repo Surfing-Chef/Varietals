@@ -40,3 +40,10 @@ foreach($data as $cat){
     }
     echo "\n";
 }
+
+?>
+
+<script src="jquery-ui/jquery-ui.js"></script>
+
+</body>
+</html>
