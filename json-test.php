@@ -45,5 +45,10 @@ foreach($data as $cat){
 
 <script src="jquery-ui/jquery-ui.js"></script>
 
+<!-- Custom scripts for Jquery-UI: Accordion
+
+
+
+</script>
 </body>
 </html>
