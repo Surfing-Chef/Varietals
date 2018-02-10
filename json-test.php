@@ -64,9 +64,16 @@ $data = $testdata['cats'];
   crossorigin="anonymous"></script>
 <script src="jquery-ui/jquery-ui.js"></script>
 
-<!-- Custom scripts for Jquery-UI: Accordion
+<script>
+// Custom scripts for Jquery-UI: Accordion
 
+$().ready(function(){
+    
+    $(".cats").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
+    $(".subs").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
+    $(".preps").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
 
+});
 
 </script>
 </body>
