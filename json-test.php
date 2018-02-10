@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php
-header('Content-Type: text/plain');
+//header('Content-Type: text/plain');
 
 $testdata = json_decode(file_get_contents("list.json"), true);
 
