@@ -21,25 +21,40 @@ define("TAB1", "\t\t\t\t");
 define("TAB2", "\t\t\t\t\t\t\t\t");
 
 $data = $testdata['cats'];
-foreach($data as $cat){
-    $cat_label = $cat['cat_label'];
-    $subs_array = $cat['subs'];
+  
+?><!-- START ACCORDION-CONTAINER --><div id="accordion-container" class="cats"><?php
 
-    echo "$cat_label\n";
-    foreach($subs_array as $sub){
-        $sub_label = $sub['sub_label'];
-        $preps_array = $sub['preps'];
+    foreach($data as $cat){
+        $cat_label = $cat['cat_label'];        
+        $subs_array = $cat['subs'];
 
-        echo "\t$sub_label\n";
-        foreach($preps_array as $prep){
-            $prep_label = $prep['prep_label'];
-            $varietals = $prep['varietals'];
-    
-            echo "\t\t$prep_label - $varietals\n";
-        }
+        echo "<h1>$cat_label\n</h1>";
+        ?><!-- START .subs --><div class="subs"><?php
+            foreach($subs_array as $sub){
+                $sub_label = $sub['sub_label'];
+                $preps_array = $sub['preps'];
+
+                echo "<h2>$sub_label\n</h2>";
+                ?><!-- START .preps --><div class="preps"><?php
+                foreach($preps_array as $prep){
+                    $prep_label = $prep['prep_label'];
+                    $varietals = $prep['varietals'];
+            
+                    echo "<h3>$prep_label\n</h3>";
+                    ?><!-- START .preps --><div><ul>
+
+                        <?php $varietalsArray = explode(',', $varietals); 
+                        foreach($varietalsArray as $item){
+                            echo "<li>$item</li>";
+                        }
+                        ?>
+                    </ul></div><!-- END .preps --><?php
+                }?></div><!-- END .preps --><?php
+            }?></div><!-- END .subs --><?php
+        
     }
-    echo "\n";
-}
+
+?></div><!-- END ACCORDION-CONTAINER --><?php
 
 ?>
 
