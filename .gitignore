@@ -1,0 +1,10 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# NMP Packages
+node_modules/*
