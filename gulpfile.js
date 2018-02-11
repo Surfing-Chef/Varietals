@@ -9,6 +9,7 @@ function handleError (error) {
 gulp.task('sass', function(){
     return gulp.src('app/scss/**/*.scss')
     .pipe(sass()) // Converts Sass to CSS with gulp-sass
+    .on('error', handleError) //Show details on any errors
     .pipe(gulp.dest('app/css'));
 });
 
