@@ -10,26 +10,56 @@
     <title>JSON Matches Food and Wine 1.0</title>
 </head>
 <body>
-<ul class="accordion">
-  <li>
-    <a class="toggle" href="javascript:void(0);">Category</a>
-    <ul class="inner">
-      <li>
-        <a href="#" class="toggle">Subcategory</a>
-        <ul class="inner">
-          <li>
-            <a href="#" class="toggle">Prep</a>
+<?php
+//header('Content-Type: text/plain');
+
+$testdata = json_decode(file_get_contents("list.json"), true);
+$data = $testdata['cats'];
+  
+?><!-- START ACCORDION-CONTAINER -->
+    <ul id="accordion" class="cats"><?php
+
+    foreach($data as $cat){
+        $cat_label = $cat['cat_label'];        
+        $subs_array = $cat['subs'];
+        ?>
+        <!-- START .cats -->
+        <li class="cats">
+            <a class="toggle" href="javascript:void(0);"><?php echo $cat_label; ?></a>
             <ul class="inner">
-                <li>Varietal 1</li>
-                <li>Varietal 2</li>
-                <li>Varietal 3</li>
+            <?php
+            foreach($subs_array as $sub){
+                $sub_label = $sub['sub_label'];
+                $preps_array = $sub['preps'];
+                ?>
+                <!-- START .subs -->
+                <li class="subs">
+                    <a class="toggle" href="javascript:void(0);"><?php echo $sub_label; ?></a>
+                    <ul class="inner">
+                    <?php
+                    foreach($preps_array as $prep){
+                        $prep_label = $prep['prep_label'];
+                        $varietals = $prep['varietals'];
+                        ?>
+                        <!-- START .preps -->
+                        <li class="preps">
+                            <a class="toggle" href="javascript:void(0);"><?php echo $prep_label; ?></a>
+                            <ul class="inner">
+                                <?php $varietalsArray = explode(',', $varietals); 
+                                foreach($varietalsArray as $item){
+                                    echo "<li>$item</li>";
+                                }?>
+                            </ul>
+                        </li><!-- END .preps -->
+                    <?php } ?>
+                    </ul>
+                </li><!-- END .subs -->
+            <?php } ?>
             </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+        </li><!-- END .cats --><?php
+    }?>
+    </ul><!-- END ACCORDION-CONTAINER --><?php
+?>
 
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
