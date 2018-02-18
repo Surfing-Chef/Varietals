@@ -17,7 +17,7 @@ $testdata = json_decode(file_get_contents("list.json"), true);
 $data = $testdata['cats'];
   
 ?><!-- START ACCORDION-CONTAINER -->
-    <ul id="accordion" class="cats"><?php
+    <ul id="accordion"><?php
 
     foreach($data as $cat){
         $cat_label = $cat['cat_label'];        
@@ -75,14 +75,23 @@ $().ready(function(){
     
         if ($this.next().hasClass('show')) {
             $this.next().removeClass('show');
-            $('.active').toggleClass('active');
             $this.next().slideUp(350);
         } else {
             $this.parent().parent().find('li .inner').removeClass('show');
             $this.parent().parent().find('li .inner').slideUp(350);
-            $this.toggleClass('active');
             $this.next().toggleClass('show');
+            $('.active').removeClass('active');
             $this.next().slideToggle(350);
+        }
+
+        if ($this.next('.show')) {
+            $this.addClass('active');
+        } if ($this.parent().parent().hasClass('show')){
+            console.log($this.parent().parent().parent());
+            console.log('clicked');
+            //$this.parent().parent().parent().prev('a:first-child').addClass('active');
+            $this.parent().parent().parent().find('a:first-child').css('background', 'pink');
+            
         }
     });
 });
