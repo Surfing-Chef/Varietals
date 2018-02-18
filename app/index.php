@@ -75,10 +75,12 @@ $().ready(function(){
     
         if ($this.next().hasClass('show')) {
             $this.next().removeClass('show');
+            $('.active').toggleClass('active');
             $this.next().slideUp(350);
         } else {
             $this.parent().parent().find('li .inner').removeClass('show');
             $this.parent().parent().find('li .inner').slideUp(350);
+            $this.toggleClass('active');
             $this.next().toggleClass('show');
             $this.next().slideToggle(350);
         }

@@ -31,8 +31,6 @@ ul {
         a.toggle {
             width: 100%;
             display: block;
-            // background: rgba(0,0,0,0.78);
-            // color: #fefefe;
             color: rgb(0,0,0);
             padding: .7em;
             border-radius: .2em;
@@ -40,6 +38,11 @@ ul {
             transition: background .3s ease;
           
             &:hover {
+                background: rgba(0, 0, 0, 0.9);
+                color: #fefefe;
+            }
+
+            &.active {
                 background: rgba(0, 0, 0, 0.9);
                 color: #fefefe;
             }
