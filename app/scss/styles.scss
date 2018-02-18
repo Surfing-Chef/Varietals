@@ -1,5 +1,75 @@
+// Style Vars
 $background-color: #ebebeb;
+
+// Structure Mixins
+// $mobile: 320px;
+// $landscape: 600px;
+// $tablet: 768px;
+// $desktop: 1024px;
+
+// @mixin landscape {
+//     @media (min-width: #{$landscape}) and (max-width: #{$tablet - 1px}) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet {
+//     @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
+//         @content;
+//     }
+// }
+
+// @mixin desktop {
+//     @media (min-width: #{$desktop}) {
+//         @content;
+//     }
+// }
+  
+
+// ------------------------------ //
  
-body {
-    background: $background-color;
+// body {
+//     background: $background-color;
+// }
+
+// jquery-ui accordion overrides
+.ui-widget.ui-widget-content,
+.ui-accordion .ui-accordion-content {
+    padding: .5em;
+    border-top:  1px solid rgb(197, 197, 197);
+    border-bottom:  1px solid rgb(197, 197, 197);
+    margin-top: 2px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
+
+.subs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.preps { 
+    justify-self: end;
+}
+
+// .cats, .cats > div,
+// .subs, div > .subs,
+// .preps, div > .preps {
+//     display: flex;
+//     flex-wrap: wrap;
+//     width: 100%;
+
+//     h1, h2, h3 {
+//         width: 100%;
+//     }
+
+//     @include landscape {
+//         .subs {
+//             width: $tablet;
+
+//             h2 {
+//                 width: ($tablet)/2;
+//             }
+//         }
+//     }
+// }
