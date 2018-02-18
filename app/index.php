@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
-    <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
-    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
-
     <link rel="stylesheet" href="css/styles.css">
 
     <title>JSON Matches Food and Wine 1.0</title>
@@ -64,17 +60,10 @@ $data = $testdata['cats'];
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script src="jquery-ui/jquery-ui.js"></script>
-
 <script>
-// Custom scripts for Jquery-UI: Accordion
 
 $().ready(function(){
     
-    $(".cats").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
-    $(".subs").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
-    $(".preps").accordion({ active: false }, { collapsible: true }, { heightStyle: "content" });
-
 });
 
 </script>
