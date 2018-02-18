@@ -44,7 +44,7 @@ $data = $testdata['cats'];
                         <!-- START .preps -->
                         <li class="preps">
                             <a class="toggle" href="javascript:void(0);"><?php echo $prep_label; ?></a>
-                            <ul class="inner">
+                            <ul class="inner varietal">
                                 <?php $varietalsArray = explode(',', $varietals); 
                                 foreach($varietalsArray as $item){
                                     echo "<li>$item</li>";
