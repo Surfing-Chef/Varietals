@@ -1,2 +1,15 @@
-body {
-  background: #ebebeb; }
+.ui-widget.ui-widget-content,
+.ui-accordion .ui-accordion-content {
+  padding: .5em;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  margin-top: 2px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+.subs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+
+.preps {
+  justify-self: end; }
