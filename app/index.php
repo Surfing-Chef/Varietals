@@ -43,7 +43,7 @@ $data = $testdata['cats'];
                     $varietals = $prep['varietals'];
             
                     echo "<h3>$prep_label\n</h3>";
-                    ?><!-- START .preps --><div><ul>
+                    ?><!-- START .preps --><div class="varietals"><ul>
 
                         <?php $varietalsArray = explode(',', $varietals); 
                         foreach($varietalsArray as $item){
