@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600");
 * {
   box-sizing: border-box;
   font-family: 'Open Sans',sans-serif;
@@ -15,27 +14,19 @@ p {
 .description {
   margin: 1em auto 2.25em; }
 
-body {
-  width: 40%;
-  min-width: 300px;
-  max-width: 400px;
-  margin: 1.5em auto;
-  color: #333; }
-
 h1 {
-  font-family: 'Pacifico', cursive;
   font-weight: 400;
   font-size: 2.5em; }
 
 ul {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
   ul .inner {
     padding-left: 1em;
     overflow: hidden;
     display: none; }
-    ul .inner.show {
-      /*display: block;*/ }
   ul li {
     margin: .5em 0; }
     ul li a.toggle {
