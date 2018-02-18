@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
     <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
 
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>JSON Matches Food and Wine</title>
 </head>
 <body>
