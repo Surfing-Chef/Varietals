@@ -26,6 +26,8 @@ h1 {
 ul {
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   
     .inner {
         padding-left: 1em;
