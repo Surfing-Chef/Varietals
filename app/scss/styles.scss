@@ -1,75 +1,68 @@
-// Style Vars
-$background-color: #ebebeb;
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
 
-// Structure Mixins
-// $mobile: 320px;
-// $landscape: 600px;
-// $tablet: 768px;
-// $desktop: 1024px;
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
 
-// @mixin landscape {
-//     @media (min-width: #{$landscape}) and (max-width: #{$tablet - 1px}) {
-//         @content;
-//     }
-// }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-// @mixin tablet {
-//     @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
-//         @content;
-//     }
-// }
+p {
+    font-size:1.1em;
+    margin: 1em 0;
+}
 
-// @mixin desktop {
-//     @media (min-width: #{$desktop}) {
-//         @content;
-//     }
-// }
+.description {
+  margin: 1em auto 2.25em;
+}
+
+body {
+    width: 40%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1.5em auto;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
   
-
-// ------------------------------ //
- 
-// body {
-//     background: $background-color;
-// }
-
-// jquery-ui accordion overrides
-.ui-widget.ui-widget-content,
-.ui-accordion .ui-accordion-content {
-    padding: .5em;
-    border-top:  1px solid rgb(197, 197, 197);
-    border-bottom:  1px solid rgb(197, 197, 197);
-    margin-top: 2px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    .inner {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none;
+      
+        &.show {
+          /*display: block;*/
+        }
+    }
+  
+    li {
+        margin: .5em 0;
+      
+        a.toggle {
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,0.78);
+            color: #fefefe;
+            padding: .75em;
+            border-radius: 0.15em;
+            transition: background .3s ease;
+          
+            &:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
 }
-
-.subs {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-.preps { 
-    justify-self: end;
-}
-
-// .cats, .cats > div,
-// .subs, div > .subs,
-// .preps, div > .preps {
-//     display: flex;
-//     flex-wrap: wrap;
-//     width: 100%;
-
-//     h1, h2, h3 {
-//         width: 100%;
-//     }
-
-//     @include landscape {
-//         .subs {
-//             width: $tablet;
-
-//             h2 {
-//                 width: ($tablet)/2;
-//             }
-//         }
-//     }
-// }
