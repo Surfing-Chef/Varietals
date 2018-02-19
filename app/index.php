@@ -65,37 +65,6 @@ $data = $testdata['cats'];
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script>
-
-$().ready(function(){
-    $('.toggle').click(function(e) {
-        e.preventDefault();
-    
-        var $this = $(this);
-    
-        if ($this.next().hasClass('show')) {
-            $this.next().removeClass('show');
-            $this.next().slideUp(350);
-        } else {
-            $this.parent().parent().find('li .inner').removeClass('show');
-            $this.parent().parent().find('li .inner').slideUp(350);
-            $this.next().toggleClass('show');
-            $('.active').removeClass('active');
-            $this.next().slideToggle(350);
-        }
-
-        if ($this.next('.show')) {
-            $this.addClass('active');
-        } if ($this.parent().parent().hasClass('show')){
-            console.log($this.parent().parent().parent());
-            console.log('clicked');
-            //$this.parent().parent().parent().prev('a:first-child').addClass('active');
-            $this.parent().parent().parent().find('a:first-child').css('background', 'pink');
-            
-        }
-    });
-});
-
-</script>
+<script src="js/sc-accordion.js"></script>
 </body>
 </html>
