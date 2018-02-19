@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans',sans-serif; }
+  font-family: 'Open Sans',sans-serif;
+  color: #444444; }
 
 a {
   text-decoration: none;
@@ -19,20 +20,20 @@ ul {
     overflow: hidden;
     display: none; }
   ul.varietal {
-    list-style-type: initial; }
+    border-left: 1px solid #ddd;
+    list-style-type: initial;
+    padding: .7em .7em .7em 2em;
+    font-size: .9em; }
   ul li a.toggle {
     width: 100%;
     display: block;
-    color: black;
     padding: .7em;
     border-radius: .2em;
-    border: 1px solid rgba(0, 0, 0, 0.78);
+    border: 1px solid #ddd;
     transition: background .3s ease; }
-    ul li a.toggle:hover {
-      background: rgba(0, 0, 0, 0.9);
-      color: #fefefe; }
-    ul li a.toggle.active {
-      background: rgba(0, 0, 0, 0.9);
-      color: #fefefe; }
+    ul li a.toggle:hover, ul li a.toggle.active {
+      background: rgba(68, 68, 68, 0.5);
+      color: #1565c0;
+      font-weight: bold; }
   ul li.preps a {
     width: 94%; }
