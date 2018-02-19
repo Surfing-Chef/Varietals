@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>JSON Matches Food and Wine 1.0</title>
+    <title>JSON Matches Food and Wine 1.1</title>
 </head>
 <body>
 <?php
