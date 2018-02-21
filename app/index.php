@@ -65,7 +65,11 @@ $data = $testdata['cats'];
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+  
+<!-- Uncomment following script for deployment -->
+<!-- <script src="js/scripts.js"></script> -->
+
+<!-- Comment out the following script(s) for development -->
 <script src="js/sc-accordion.js"></script>
 </body>
 </html>
