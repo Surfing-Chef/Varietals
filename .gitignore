@@ -6,6 +6,9 @@
 *.tar.gz
 *.rar
 
-# NMP Packages
+# NMP Packages #
 node_modules/*
 package-lock.json
+
+# Project Files #
+build/
